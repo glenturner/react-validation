@@ -1,0 +1,27 @@
+.modal_wrapper {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.children {
+    position: relative;
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clickable {
+    z-index: 2;
+    position: absolute;
+    background: rgba(244,244,244, 0.85);
+    width: 100vw;
+    height: 100vh;
+    // box-shadow: 0 0 3rem 1rem rgb(95 95 95 / 25%);
+    overflow: hidden;
+}
