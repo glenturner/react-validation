@@ -87,7 +87,8 @@ export const EmployeeForm = memo(({ data, onClick = () => { } }) => {
                 </FormGroup>
                 <FormGroup isColumn title={"Update Password"}>
                     <TextField
-                        type={"password"} label={"Password"}
+                        type={"password"}
+                        label={"Password"}
                         onChange={setFirst}
                         name={"firstPassword"}
                         errorMessage={"Password must pass all rules"}
